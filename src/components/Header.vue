@@ -1,30 +1,24 @@
 <template>
-  <div class="container">
+  <div class="md:container ml-[5px] mr-[5px]">
     <div class="flex justify-between items-center py-8 border-b">
+      
       <div class="flex items-center gap-2">
         <img src="../../public/Vector (5).png" alt="" />
         <p class="text-[#46A358] font-bold">GREENSHOP</p>
       </div>
-      <div class="flex justify-between items-center gap-20">
-        <a
-          href="#"
-          class="font-normal text-[#3D3D3D] hover:text-[#3D3D3D] hover:font-bold"
-          >Home</a
-        >
-        <a href="#" class="text-[#3D3D3D] hover:text-[#3D3D3D] hover:font-bold"
-          >Shop</a
-        >
-        <a href="#" class="text-[#3D3D3D] hover:text-[#3D3D3D] hover:font-bold"
-          >Plant Care</a
-        >
-        <a
-          href="#"
-          class="font-normal text-[#3D3D3D] hover:text-[#3D3D3D] hover:font-bold"
-          >Blogs</a
-        >
+
+
+      <div class="md:flex md:justify-between md:items-center md:gap-20 hidden">
+        <a href="#" class="font-normal text-[#3D3D3D] hover:text-[#3D3D3D] hover:font-bold">Home</a>
+        <a href="#" class="text-[#3D3D3D] hover:text-[#3D3D3D] hover:font-bold">Shop</a>
+        <a href="#" class="text-[#3D3D3D] hover:text-[#3D3D3D] hover:font-bold">Plant Care</a>
+        <a href="#" class="font-normal text-[#3D3D3D] hover:text-[#3D3D3D] hover:font-bold">Blogs</a>
       </div>
+
+
+
       <div class="flex justify-between items-center gap-6">
-        <img src="../../public/loop.png" alt="" />
+        <img src="../../public/loop.png" alt="" class="md:block hidden"/>
         <div class="relative pr-2">
           <img src="../../public/korzina.png" alt="" />
           <div

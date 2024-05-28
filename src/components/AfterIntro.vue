@@ -1,12 +1,17 @@
 <template>
-  <div class="container flex justify-between gap-10 mb-20">
+  <div class="container md:flex md:justify-between md:gap-10 mb-20">
     <div class="relative flex justify-around items-center bg-[#FBFBFB]">
       <div class="w-6/12 relative">
-        <img class="absolute top-[-160px]" src="../../public/imagePos.png" alt="" />
+        <img
+          class="md:absolute md:top-[-160px] bottom-[px]"
+          src="../../public/imagePos.png"
+          alt=""
+        />
       </div>
-      <div class="text-end pr-8 w-10/12" >
-        <h2 class="font-extrabold text-[24px] pt-8"  >SUMMER CACTUS</h2>
-        <h2 class="font-extrabold text-[24px] pb-2"   >& SUCCULENTS</h2>
+
+      <div class="text-end pr-8 w-10/12">
+        <h2 class="font-extrabold text-[24px] pt-8">SUMMER CACTUS</h2>
+        <h2 class="font-extrabold text-[24px] pb-2">& SUCCULENTS</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
           distinctio, porro ipsam necessitatibus quis enim!
@@ -16,16 +21,25 @@
         >
           Find more
         </button>
-        <img class="absolute left-0 bottom-0" src="../../public/Ellipse.png" alt="some">
+        <img
+          class="absolute left-0 bottom-0"
+          src="../../public/Ellipse.png"
+          alt="some"
+        />
       </div>
     </div>
-<div class="relative flex justify-around items-center bg-[#FBFBFB]">
+
+    <div class="relative flex justify-around items-center bg-[#FBFBFB] mt-5">
       <div class="w-6/12 relative">
-        <img class="absolute top-[-160px]" src="../../public/imagePos.png" alt="" />
+        <img
+          class="md:absolute md:top-[-160px]"
+          src="../../public/imagePos.png"
+          alt=""
+        />
       </div>
-      <div class="text-end pr-8 w-10/12" >
-        <h2 class="font-extrabold text-[24px] pt-8"  >SUMMER CACTUS</h2>
-        <h2 class="font-extrabold text-[24px] pb-2"   >& SUCCULENTS</h2>
+      <div class="text-end pr-8 w-10/12">
+        <h2 class="font-extrabold text-[24px] pt-8">SUMMER CACTUS</h2>
+        <h2 class="font-extrabold text-[24px] pb-2">& SUCCULENTS</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
           distinctio, porro ipsam necessitatibus quis enim!
@@ -35,7 +49,11 @@
         >
           Find more
         </button>
-        <img class="absolute left-0 bottom-0" src="../../public/Ellipse.png" alt="some">
+        <img
+          class="absolute left-0 bottom-0"
+          src="../../public/Ellipse.png"
+          alt="some"
+        />
       </div>
     </div>
   </div>

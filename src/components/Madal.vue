@@ -6,8 +6,9 @@
     ></div>
 
     <div
-      class="fixed md:w-[500px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white pt-[10px] p-7 rounded"
+      class="fixed md:w-[500px] w-[300px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white pt-[10px] md:p-7 p-2 rounded"
     >
+
       <div class="flex justify-end">
         <button
           @click="closeMadal"
@@ -36,9 +37,9 @@
         <p class="mt-[20px] text-center text-[#3D3D3D] text-[13px] w-[100%]">
           Enter your username and password to login.
         </p>
-        <div class=" ml-[90px] mt-[20px]">
+        <div class="md:ml-[90px] ml-[35px] mt-[20px]">
           <input
-            class="px-[14px] py-[10px] border border-[#46A358] placeholder:text-[#A5A5A5] rounded-md mx-auto w-[265px] mt-[10px]"
+            class="px-[14px] py-[10px] border border-[#46A358] placeholder:text-[#A5A5A5] rounded-md mx-auto md:w-[265px] md:mt-[10px]"
             type="email"
             placeholder="some@email.com"
           />
@@ -48,17 +49,17 @@
           type="password"
           name=""
           id=""
-          class="px-[14px] py-[10px] border border-[#46A358] placeholder:text-[#A5A5A5] rounded-md mx-auto w-[60%] mt-[30px]"
+          class="px-[14px] py-[10px] border border-[#46A358] placeholder:text-[#A5A5A5] rounded-md mx-auto md:w-[60%] mt-[30px]"
         />
         <a
           href="mailto:youremail@example.com"
-          class="mt-[14px] text-[#46A358] leading-[14px] w-[60%] text-right mx-auto cursor-pointer"
+          class="mt-[14px] text-[#46A358] leading-[14px] md:w-[60%] text-right mx-auto cursor-pointer"
         >
           Forgot Password?
         </a>
 
         <button
-          class="px-[100px] py-[14px] text-[16px] font-medium text-[#fff] border rounded-md bg-[#46A358] mt-[27px] w-[60%] mx-auto"
+          class="px-[100px] py-[14px] text-[16px] font-medium text-[#fff] border rounded-md bg-[#46A358] mt-[27px] md:w-[60%] mx-auto"
         >
           Login
         </button>
@@ -67,7 +68,7 @@
         </p>
         <div class="">
           <button
-            class="flex gap-2 items-center py-4 px-[50px] text-center border rounded ml-[90px] mt-[20px]"
+            class="flex gap-2 items-center md:py-4 py-1 px-[50px] text-center border rounded md:ml-[90px] ml-[10px] mt-[20px]"
           >
             <svg
               width="20"
@@ -116,7 +117,7 @@
           </button>
         </div>
         <button
-          class="flex gap-2 py-4 px-[42px] text-center border rounded ml-[90px] mt-[20px] items-center"
+          class="flex gap-2 md:py-4 py-1 px-[42px] ml-[10px] text-center border rounded md:ml-[90px] mt-[20px] items-center"
         >
           <svg
             width="20"
@@ -174,7 +175,7 @@
           class="px-[14px] py-[10px] placeholder:text-[#A5A5A5] border border-[#46A358] rounded-md mx-auto w-[60%] mt-4"
         />
         <button
-          class="px-[100px] py-[14px] text-[16px] font-medium text-[#fff] text-center border rounded-md bg-[#46A358] mt-[20px] w-[60%] mx-auto"
+          class="md:px-[100px] py-[14px] text-[16px] font-medium text-[#fff] text-center border rounded-md bg-[#46A358] mt-[20px] w-[60%] mx-auto"
         >
           Register
         </button>
@@ -183,7 +184,7 @@
         </p>
         <div class="">
           <button
-            class="flex gap-2 items-center py-4 px-[50px] text-center border rounded ml-[90px] mt-[20px]"
+            class="flex gap-2 items-center md:py-4 py-1 px-[50px] text-center border rounded md:ml-[90px] ml-[10px] mt-[20px]"
           >
             <svg
               width="20"
@@ -232,7 +233,7 @@
           </button>
         </div>
         <button
-          class="flex gap-2 py-4 px-[42px] text-center border rounded ml-[90px] mt-[10px] items-center"
+          class="flex gap-2 md:py-4 py-1 px-[42px] ml-[10px] text-center border rounded md:ml-[90px] mt-[20px] items-center"
         >
           <svg
             width="20"

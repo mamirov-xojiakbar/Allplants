@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-14">
-    <div class="grid grid-cols-4 gap-10">
+    <div class="grid md:grid-cols-4 md:gap-10 grid-cols-1">
       <!-- first grid  -->
       <div class="col-span-1 bg-[#FBFBFB]">
         <h3 class="pt-5 px-5 pb-2 font-bold text-[#3D3D3D] text-[18px]">
@@ -43,9 +43,10 @@
         </div>
       </div>
       <!-- second grid  -->
-      <div class="col-span-3">
+
+      <div class="col-span-3 px-[10px] md:p-[0px]">
         <div class="flex justify-between">
-          <div class="flex gap-16">
+          <div class="flex md:gap-16 gap-4 mt-5 md:mt-0">
             <a
               class="text-[18px] text-[#3D3D3D] hover:text-[#46A358] hover:font-bold hover:border-b-4 border-[#46A358]"
               href="#"
@@ -63,13 +64,14 @@
             >
           </div>
 
-          <div class="flex gap-2 items-center text-[#3D3D3D] text-[18px]">
+          <div class="flex gap-2 items-center text-[#3D3D3D] text-[18px] mt-5 md:mt-0">
             <p>Sort by:</p>
             <p>Default sorting</p>
             <img src="../../public/down.png" alt="" />
           </div>
         </div>
-        <div class="grid grid-cols-3 gap-x-16 gap-y-[44px] mt-5">
+
+        <div class="grid md:grid-cols-3 grid-cols-2 md:gap-x-16 gap-x-8 gap-y-[44px] mt-5">
           <Intro_card2 v-for="item in 9" />
         </div>
       </div>

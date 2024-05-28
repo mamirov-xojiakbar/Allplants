@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <div class="flex justify-between bg-[#F5F5F580] mt-3">
-      <div class="w-2/4 pl-12 py-20">
+    <div class="md:flex md:justify-between bg-[#F5F5F580] mt-3">
+      <div class="md:w-2/4 pl-12 md:py-20">
         <p class="text-[#3D3D3D] font-medium uppercase">Welcome to greenshop</p>
-        <h1 class="tracking-wide py-3 text-[80px] uppercase font-extrabold leading-[80px]">
+        <h1 class="md:tracking-wide py-3 md:text-[80px] text-[60px] uppercase font-extrabold leading-[80px]">
           Let’s Make a Better <span class="text-[#46A358]">Planet</span>
         </h1>
         <p class="pb-10 text-[#727272] leading-[24px] tracking-wider">
@@ -22,7 +22,7 @@
       <!-- second div  -->
       <div class="">
         <!-- <img class="w-[135px] h-[135px]" src="../../public/littleFlower.png" alt="" /> -->
-        <img src="../../public/bigFlower.png" alt="" />
+        <img src="../../public/bigFlower.png" alt="" class="ml-[30px]"/>
       </div>
     </div>
   </div>
