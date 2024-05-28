@@ -4,6 +4,7 @@ import Intro from "./components/Intro.vue"
 import Intro2 from "./components/Intro2.vue"
 import AfterIntro from "./components/AfterIntro.vue"
 import Blog from "./components/Blog.vue"
+import Madal from "./components/Madal.vue"
 
 export default {
   components: {
@@ -11,7 +12,8 @@ export default {
     Intro,
     Intro2,
     AfterIntro,
-    Blog
+    Blog,
+    Madal
   },
   data() {
     return {
@@ -19,6 +21,7 @@ export default {
       count: 0,
       name: "",
       users: [],
+      isMadal: false,
       image:
         "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp",
     };
@@ -31,12 +34,18 @@ export default {
     getInput() {
       this.users.push(this.name);
     },
+
+    showMadal() {
+      this.isMadal = true;
+    }
+    
   },
 };
 </script>
 
 <template>
-  <Header />
+  <Header @login-clicked="showMadal" />
+  <Madal v-if="isMadal" @close="isMadal=false"/>
   <Intro/>
   <Intro2/>
   <div class="container flex justify-end gap-1 my-16">

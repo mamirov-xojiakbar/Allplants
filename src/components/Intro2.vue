@@ -93,11 +93,11 @@ export default {
         { name: "Gardening", amount: "(13)" },
         { name: "Accessories", amount: "(18)" },
       ],
-      plantSizes : [
-  { name: "Small", amount: "(119)" },
-  { name: "Medium", amount: "(86)" },
-  { name: "Large", amount: "(78)" }
-]
+      plantSizes: [
+        { name: "Small", amount: "(119)" },
+        { name: "Medium", amount: "(86)" },
+        { name: "Large", amount: "(78)" },
+      ],
     };
   },
 

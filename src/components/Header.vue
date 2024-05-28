@@ -33,9 +33,7 @@
             6
           </div>
         </div>
-        <button
-          class="bg-[#46A358] flex items-center gap-2 px-5 py-2 rounded-[6px]"
-        >
+        <button @click="$emit('login-clicked')" class="bg-[#46A358] flex items-center gap-2 px-5 py-2 rounded-[6px]">
           <img src="../../public/Logout.png" alt="" />
           <span class="text-[#fff]">Login</span>
         </button>
@@ -44,6 +42,12 @@
   </div>
 </template>
 
-<script></script>
+
+<script>
+export default {
+  name: 'Header',
+  // No need for script content as we're only emitting an event
+};
+</script>
 
 <style lang="scss" scoped></style>
