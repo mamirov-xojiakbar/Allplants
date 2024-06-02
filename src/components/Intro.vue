@@ -19,9 +19,7 @@
           </button>
         </div>
       </div>
-      <!-- second div  -->
       <div class="">
-        <!-- <img class="w-[135px] h-[135px]" src="../../public/littleFlower.png" alt="" /> -->
         <img src="../../public/bigFlower.png" alt="" class="ml-[30px]"/>
       </div>
     </div>

@@ -34,7 +34,7 @@
             <p class="py-3 text-[#3D3D3D]">{{ item.amount }}</p>
           </li>
         </ul>
-        <div class="bg-[#46A3581A]">
+        <div class="bg-[#46A3581A] mt-[110px]">
           <img class="mx-auto" src="../../public/Super_Sale.png" alt="" />
           <h3 class="text-center font-bold text-[23px] text-[#3D3D3D]">
             UP TO 75% OFF
@@ -72,7 +72,7 @@
         </div>
 
         <div class="grid md:grid-cols-3 grid-cols-2 md:gap-x-16 gap-x-8 gap-y-[44px] mt-5">
-          <Intro_card2 v-for="item in 9" />
+          <Intro_card2/>
         </div>
       </div>
     </div>
